@@ -1,7 +1,3 @@
-from curses.ascii import SO
-from socket import SOL_ALG
-
-
 class Solution:
     def countOdds(self, low: int, high: int) -> int:
         if low % 2 != 0:

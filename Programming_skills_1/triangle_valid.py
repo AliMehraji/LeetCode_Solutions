@@ -1,6 +1,3 @@
-from audioop import reverse
-
-
 def largestPerimeter(A):
     A.sort()
     for i in range(len(A) - 3, -1, -1):
